@@ -29,6 +29,11 @@ Travels = [
         StartLocation: 'Sibiu',
         EndLocation: 'Cluj',
     },
+    {
+        Id: 5,
+        StartLocation: 'Sibiu',
+        EndLocation: 'Constanta',
+    },
 ]
 
 export  default Travels;
