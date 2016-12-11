@@ -31,6 +31,12 @@ class Main extends Component {
         })
     }
 
+    // onShowChart() {
+    //     this.props.navigator.push({
+    //         index: 5,
+    //     })
+    // }
+
     render() {
         return (
             <View style={styles.container}>
@@ -49,6 +55,14 @@ class Main extends Component {
                         <Text style={styles.button}>Send email</Text>
                     </View>
                 </TouchableHighlight>
+
+                {/*<TouchableHighlight*/}
+                    {/*onPress={() => this.onShowChart()}*/}
+                {/*>*/}
+                    {/*<View>*/}
+                        {/*<Text style={styles.button}>Show chart</Text>*/}
+                    {/*</View>*/}
+                {/*</TouchableHighlight>*/}
             </View>
         )
     }
